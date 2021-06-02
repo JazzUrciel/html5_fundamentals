@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<main></main>  //Le dice al motor de búsqueda que la información más importante sobre la relevancia de la búsqueda se encuentra en este elemento.
+
+<article></article>  //El contenido que se incluye dentro de este elemento representa una forma de agrupar la señalización de la información para el motor de búsqueda de que el contenido interno es realmente importante en comparación con el contenido que podría estar rodeándolo (da significado semántico para el contenido).
+
+<aside></aside> //Marca contenido que podría ser importante pero tal vez no tan necesario como el resto de la página.
+
+<section></section> //Es más como el elemento div se usa para agrupar contenido relacionado, pero la agrupación es más para propósitos lógicos en lugar de visuales.
+
+<header></header> //Cubo lógico que indica que es el encabezado de una página.
+
+<footer></footer> //Cubo lógico que indica que es el pie de página.
+
+<nav></nav> //Contenedor lógico para la navegación del sitio.
+
+<time
+date=”2016-08-12” pubdate> 
+	August 12, 2016
+</time> //Semánticamente es un punto en el tiempo, puede especificar una hora o una fecha especifica, una página solo puede tener un elemento con el atributo pubdate, esto actúa como marca de tiempo para la fecha de publicación de la página web. 
+
+<figure>
+	<figcaption>
+		Screenshot of menu
+    </figcaption> //agrega descripción que liga logicamente con la imagen
+    <img src = “screenshot.png”>
+</figure> // agregar imagen
+
+<details>
+	<summary>
+		events
+    </summary> 
+    <p>Come join us.</p>
+</details> //Se ve de la siguiente manera:
+
+
+<mark> Semánticamente </mark> //Se usa para ajustar el texto en los resultados de búsqueda para resaltar el término coincidente, si bien podría lograr exactamente lo mismo con un elemento span y unos css, lo diferente es que mark proporciona un significado semántico del término coincidente.  
+
+<bdi>hola</bdi> //Significa aislamiento bidireccional, se usa para cambiar la dirección horizontal del texto circundante.
+
+<p>Honorificabili<wbr>tudinitatibus</p> //WordBreak este elemento le dice al navegador donde pegar una palabra cuando se quiere envolver. 
+
+<output>34</output > //elemento de salida, el objetivo de este elemento es tener una etiqueta semántica que contenga lso resultados de algún tipo de calculo, ejemplo da los resultados de una calculadora.
+
+<embed
+src = “intro.mov”> //Es un contenedor de host para los complementos externos
